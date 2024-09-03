@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Test 2</title>
+	</head>
+	<body>
+		<div id="toolbar">
+			<button id="_SHOW" onclick="showText()">Show Text</button>
+			<button id="BUT_ADD" onclick="showAddForm()">Add Element</button>
+			<button id="REMOVE" onclick="showRemoveForm()">Remove Element</button>
+			<button id="CLEAR" onclick="clearJSON()">Clear</button>
+			<button id="RESTORE" onclick="restoreJSON()">Restore</button>
+
+			<button id="PIEB" type="button" onclick="showPieChart()">Show Pie Chart</button>
+			<button id="LOC_PIE_BUTTON" type="button" onclick="showLocalPieChart()">
+				Show Local Pie Chart
+			</button>
+		</div>
+
+		<div style="visibility: hidden" id="addForm">
+			<input type="text" id="titleTF" placeholder="title" />
+			<input type="number" id="valueTF" placeholder="value" />
+			<input type="text" id="colorTF" placeholder="color" />
+			<button id="VALIDADD" onclick="validateAddition()">Add</button>
+		</div>
+
+		<div style="visibility: hidden" id="removeForm">
+			<input type="number" id="indexTF" placeholder="index" />
+			<button id="SUBMITREM" onclick="submitRemoval()">Remove</button>
+		</div>
+
+		<div id="MAINSHOW"></div>
+
+		<script src="./test2.js"></script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+.black-margin {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+img {
+    float: left;
+    margin-right: 11px;
+}
+
+p {
+    margin-left: 11px;
+}
+
+.div-3-style {
+    position: absolute;
+    top: 105px;
+    left: 105px;
+    width: 455px;
+    height: 455px;
+    background-color: dimgrey;
+    margin: 10px;
+}

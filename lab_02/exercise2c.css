@@ -1,0 +1,18 @@
+.black-margin {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+img {
+    float: left;
+    margin-right: 11px;
+}
+
+p {
+    margin-left: 11px;
+}
+
+.grey-background {
+    background-color: dimgrey;
+    margin: 10px;
+}
